@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td
+        {
+            border: 1px sold rgba(129, 124, 50, 0.667);
+        }
+    </style>
+   
+
+
+
+</head>
+<body>
+    {{data}}
+    <!----THE NAV IS {{data}}---->
+
+
+    <form action="#" method="POST">
+        <input type="text" name="input" placeholder="Enter Input"><br><br>
+        <input type ="submit" value="Submit"><br><br>
+    </form>
+    
+
+  <!-------- <table>
+        <tr>
+         <th>ID</th>
+         <th>FUND NAME</th>
+         <th>Net ASSET VALUE</th>
+        
+        </tr>
+       {% for i in data %}
+       <tr>
+        <td>{{i.id}}</td>
+        <td>{{i.fund_house}}</td>
+        <td>{{i.nav}}</td>
+       </tr>
+       {% endfor %}
+    </table>-------->
+
+
+
+</body>
+</html>
